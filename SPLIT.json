@@ -1,0 +1,45 @@
+{
+  "source": "https://github.com/atosonik/upscaling.git",
+  "project": "upscaling",
+  "piece": 3,
+  "piece_count": 3,
+  "repo": "atosonik/upscaling-zip-03",
+  "zips": [
+    "upscaling-009.zip",
+    "upscaling-010.zip"
+  ],
+  "restore": "python chunker.py merge\npython pack_app.py --unpack",
+  "repos": [
+    {
+      "repo": "atosonik/upscaling-zip-01",
+      "url": "https://github.com/atosonik/upscaling-zip-01",
+      "zips": [
+        "upscaling-001.zip",
+        "upscaling-002.zip",
+        "upscaling-003.zip",
+        "upscaling-004.zip"
+      ],
+      "bytes": 367773040
+    },
+    {
+      "repo": "atosonik/upscaling-zip-02",
+      "url": "https://github.com/atosonik/upscaling-zip-02",
+      "zips": [
+        "upscaling-005.zip",
+        "upscaling-006.zip",
+        "upscaling-007.zip",
+        "upscaling-008.zip"
+      ],
+      "bytes": 367207573
+    },
+    {
+      "repo": "atosonik/upscaling-zip-03",
+      "url": "https://github.com/atosonik/upscaling-zip-03",
+      "zips": [
+        "upscaling-009.zip",
+        "upscaling-010.zip"
+      ],
+      "bytes": 139949349
+    }
+  ]
+}
